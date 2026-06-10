@@ -160,8 +160,8 @@ flutter build apk --release
 - Cải thiện độ chính xác OCR và hỗ trợ dịch ngoại tuyến.
 - Hoàn thiện trải nghiệm quét mã QR và phát hành lên Google Play Store.
 
-## Tác giả
+# Smartor
 
-| Họ và tên | Vai trò |
-|---|---|
-| Lê Triệu Duy | Developer |
+Developed by Lê Triệu Duy.
+
+Licensed under GPL-3.0.
