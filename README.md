@@ -1,4 +1,4 @@
-# Calc Pro — Ứng dụng máy tính thông minh đa năng
+# Smartor — Ứng dụng máy tính thông minh đa năng
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.6%2B-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-SDK%203.6.2-0175C2?logo=dart&logoColor=white)
