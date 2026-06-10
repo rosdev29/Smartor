@@ -152,7 +152,6 @@ flutter build apk --release
 
 - Lưu trữ ở mức cục bộ; chưa có đồng bộ dữ liệu giữa nhiều thiết bị từ mã nguồn hiện tại.
 - Chất lượng OCR và dịch thuật phụ thuộc vào chất lượng ảnh đầu vào và dịch vụ bên thứ ba.
-- Một số tính năng nâng cao mô tả trong tài liệu (ví dụ chú thích tài liệu, đồng bộ đám mây) chưa xác định được trong mã nguồn hiện tại.
 
 ## Hướng phát triển trong tương lai
 
