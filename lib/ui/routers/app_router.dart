@@ -1,6 +1,5 @@
 import 'package:calc_pro/core/extensions/context_extension.dart';
 import 'package:calc_pro/core/strings/generated/l10n.dart';
-import 'package:calc_pro/ui/screens/auth/core.dart';
 import 'package:calc_pro/ui/screens/barcode/core.dart';
 import 'package:calc_pro/ui/screens/camera/core.dart';
 import 'package:calc_pro/ui/screens/history/core.dart';
@@ -33,11 +32,9 @@ class AppRouter {
   static const qrGenScreen = '/qrGenScreen';
   static const barcodeScreen = '/barcodeScreen';
   static const viewDocxScreen = '/viewDocxScreen';
-  static const authScreen = '/authScreen';
 
   static Map<String, Widget Function(BuildContext)> get routes => {
         splashScreen: (_) => const SplashScreen(),
-        authScreen: (_) => const AuthScreen(),
         homeScreen: (_) => const HomeScreen(),
         historyScreen: (_) => const HistoryScreen(),
         languageScreen: (_) => const LanguageScreen(),

@@ -65,13 +65,6 @@ class _ToolsButtonState extends State<_ToolsButton> {
           },
           asset: 'docx',
           title: S.current.view_docx),
-      _ToolItem(
-          onTap: () {
-            _controller.hideTooltip();
-            widget.bloc.add(LogoutEvent());
-          },
-          asset: 'logout',
-          title: S.current.logout),
     ];
 
     return AnimButton(

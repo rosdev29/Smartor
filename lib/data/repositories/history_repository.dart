@@ -1,6 +1,4 @@
 import 'package:calc_pro/data/models/history.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:fire_auth_quick/fire_auth_quick.dart';
 import 'package:isar/isar.dart';
 
 abstract interface class HistoryRepository {
@@ -11,46 +9,6 @@ abstract interface class HistoryRepository {
   Future<bool> delete({required int id});
 
   Future<void> deleteAll();
-}
-
-class HistoryRemoteRepositoryImpl implements HistoryRepository {
-  @override
-  Future<int> insert({required History history}) async {
-    await FirebaseFirestore.instance
-        .collection("users")
-        .doc(FireAuthQuick.currentUser!.uid)
-        .collection("history")
-        .doc(history.id.toString())
-        .set(history.toJson(), SetOptions(merge: true));
-    return history.id;
-  }
-
-  @override
-  Future<List<History>> getList({required int offset}) async {
-    final snapshot = await FirebaseFirestore.instance
-        .collection("users")
-        .doc(FireAuthQuick.currentUser!.uid)
-        .collection("history")
-        .get();
-    return snapshot.docs.map((e) => History.fromJson(e.data())).toList();
-  }
-
-  @override
-  Future<void> deleteAll() => FirebaseFirestore.instance
-      .collection("users")
-      .doc(FireAuthQuick.currentUser!.uid)
-      .delete();
-
-  @override
-  Future<bool> delete({required int id}) async {
-    await FirebaseFirestore.instance
-        .collection("users")
-        .doc(FireAuthQuick.currentUser!.uid)
-        .collection("history")
-        .doc(id.toString())
-        .delete();
-    return true;
-  }
 }
 
 class HistoryRepositoryImpl implements HistoryRepository {

@@ -14,7 +14,6 @@ import 'package:calc_pro/data/usecase/insert_history_use_case.dart';
 import 'package:calc_pro/data/usecase/set_barcode_type_use_case.dart';
 import 'package:calc_pro/data/usecase/set_language_translate_use_case.dart';
 import 'package:calc_pro/data/usecase/set_version_qr_code_use_case.dart';
-import 'package:calc_pro/logic/blocs/auth/auth_bloc.dart';
 import 'package:calc_pro/logic/blocs/barcode/barcode_bloc.dart';
 import 'package:calc_pro/logic/blocs/camera/camera_bloc.dart';
 import 'package:calc_pro/logic/blocs/history/history_bloc.dart';

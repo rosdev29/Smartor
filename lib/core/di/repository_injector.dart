@@ -4,6 +4,6 @@ void _repositoryInjector()  {
 
 
   getIt.registerLazySingleton<HistoryRepository>(
-      () => HistoryRemoteRepositoryImpl());
+      () => HistoryRepositoryImpl(isar: getIt()));
 
 }

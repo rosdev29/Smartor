@@ -9,9 +9,6 @@ import 'package:flutter_ads_plugin/flutter_ads_plugin.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:firebase_core/firebase_core.dart';
-
-import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,9 +16,6 @@ void main() async {
   MobileAds.instance.updateRequestConfiguration(RequestConfiguration(
       testDeviceIds: ["3E5C44621F7DCB393A3CB1A8DE226942"]));
   await injector();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
   runApp(const MyApp());
 }
 

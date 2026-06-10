@@ -42,5 +42,4 @@ void _blocInjector() {
       ));
 
   getIt.registerFactory<ViewDocxBloc>(() => ViewDocxBloc());
-  getIt.registerFactory<AuthBloc>(() => AuthBloc());
 }

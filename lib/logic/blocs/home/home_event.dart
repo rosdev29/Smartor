@@ -124,10 +124,3 @@ final class OpenCameraEvent extends HomeEvent {
   @override
   List<Object?> get props => [];
 }
-
-final class LogoutEvent extends HomeEvent {
-  const LogoutEvent();
-
-  @override
-  List<Object?> get props => [];
-}

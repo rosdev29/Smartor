@@ -11,7 +11,6 @@ import 'package:calc_pro/data/usecase/document_text_detection_use_case.dart';
 import 'package:calc_pro/data/usecase/insert_history_use_case.dart';
 import 'package:calc_pro/ui/routers/app_router.dart';
 import 'package:equatable/equatable.dart';
-import 'package:fire_auth_quick/fire_auth_quick.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:integral_isolates/integral_isolates.dart';
@@ -51,7 +50,6 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     on<OnPanEndEvent>(_onPanEnd);
     on<EmitListOffsetsEvent>(_emitListOffsets);
     on<OpenCameraEvent>(_openCamera);
-    on<LogoutEvent>(_logout);
   }
 
   final DocumentTextDetectionUseCase _documentTextDetectionUseCase;
@@ -663,11 +661,6 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   void _openCamera(OpenCameraEvent event, Emitter<HomeState> emit) async {
     AppRouter.pushNamed(AppRouter.cameraScreen,
         arguments: AppRouter.scannerScreen);
-  }
-
-  void _logout(LogoutEvent event, Emitter<HomeState> emit) async {
-    await FireAuthQuick.signOut();
-    AppRouter.pushNamedAndRemoveUntil(AppRouter.authScreen);
   }
 
   @override
