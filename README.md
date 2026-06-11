@@ -73,47 +73,44 @@ Cấu trúc thư mục `lib/` phản ánh các tầng: `ui/` (màn hình, widget
 
 > Ảnh chụp từ ứng dụng thực tế và tài liệu đồ án.
 
-**Màn hình máy tính**
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/ui/main_calculator.png" width="180"/><br/><sub><b>Máy tính chính</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/scientific_keyboard.png" width="180"/><br/><sub><b>Bàn phím khoa học</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/history.png" width="180"/><br/><sub><b>Lịch sử tính toán</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/features_menu.png" width="180"/><br/><sub><b>Menu công cụ</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/ui/qr_scanner.png" width="180"/><br/><sub><b>Quét mã QR</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/qr_generate.png" width="180"/><br/><sub><b>Tạo mã QR</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/barcode_generate.png" width="180"/><br/><sub><b>Tạo mã vạch</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/barcode_saved.png" width="180"/><br/><sub><b>Lưu ảnh mã vạch</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/ui/barcode_validation.png" width="180"/><br/><sub><b>Kiểm tra dữ liệu</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/docx_viewer.png" width="180"/><br/><sub><b>Đọc tài liệu DOCX</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/language.png" width="180"/><br/><sub><b>Đa ngôn ngữ</b></sub></td>
+    <td align="center"><img src="docs/screenshots/ui/premium.png" width="180"/><br/><sub><b>Gói Premium</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/ui/login.png" width="180"/><br/><sub><b>Đăng nhập (bản trước)</b></sub></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-![Màn hình máy tính chính](docs/screenshots/ui/main_calculator.png)
-
-Giao diện máy tính nền tối, nhập biểu thức ở trên và kết quả được tính hiển thị tức thời bên dưới.
-
-**Bàn phím khoa học**
-
-![Bàn phím khoa học](docs/screenshots/ui/scientific_keyboard.png)
-
-Chế độ bàn phím nâng cao với các hàm lượng giác (sin, cos, tan, cot), lũy thừa, căn, giai thừa và hằng số π, e, kèm công tắc DEG/RAD.
-
-**Menu công cụ**
-
-![Menu các chức năng](docs/screenshots/ui/features_menu.png)
-
-Bảng truy cập nhanh các công cụ tích hợp: Dịch (OCR), Quét QR, Xem PDF, Tạo QR, Mã vạch và Xem DOCX.
-
-**Tạo mã vạch (Barcode)**
-
-![Màn hình tạo mã vạch](docs/screenshots/ui/barcode_generate.png)
-
-Người dùng nhập nội dung, chọn loại mã vạch và sinh mã ngay trên màn hình.
-
-**Kiểm tra dữ liệu đầu vào**
-
-![Thông báo lỗi khi dữ liệu mã vạch không hợp lệ](docs/screenshots/ui/barcode_validation.png)
-
-Hệ thống xác thực dữ liệu theo từng loại mã và hiển thị thông báo lỗi rõ ràng khi đầu vào không hợp lệ.
-
-**Trình đọc tài liệu DOCX**
-
-![Màn hình xem tài liệu DOCX](docs/screenshots/ui/docx_viewer.png)
-
-Mở và hiển thị nội dung tệp DOCX trực tiếp trong ứng dụng, hỗ trợ cuộn và đọc liền mạch.
-
-**Màn hình đăng nhập (phiên bản trước)**
-
-![Màn hình đăng nhập Google](docs/screenshots/ui/login.png)
-
-Màn hình đăng nhập bằng Google ở phiên bản tích hợp Firebase trước đây; phiên bản hiện tại đã chuyển sang chạy hoàn toàn cục bộ nên không còn bước đăng nhập.
+- **Máy tính chính:** giao diện nền tối, nhập biểu thức ở trên và kết quả tính tức thời bên dưới.
+- **Bàn phím khoa học:** hàm lượng giác (sin, cos, tan, cot), lũy thừa, căn, giai thừa, hằng số π, e, kèm công tắc DEG/RAD.
+- **Lịch sử tính toán:** lưu lại, xem và xóa các phép tính đã thực hiện.
+- **Menu công cụ:** truy cập nhanh Dịch (OCR), Quét QR, Xem PDF, Tạo QR, Mã vạch và Xem DOCX.
+- **Quét / Tạo mã QR:** quét mã từ camera và sinh mã QR theo nội dung cùng tùy chọn version.
+- **Tạo & lưu mã vạch:** nhập nội dung, chọn loại mã (Code93, GS128…) và lưu ảnh mã vạch ra thiết bị.
+- **Kiểm tra dữ liệu đầu vào:** xác thực theo từng loại mã và hiển thị thông báo lỗi rõ ràng.
+- **Đọc tài liệu DOCX:** mở và hiển thị nội dung tệp DOCX trực tiếp trong ứng dụng.
+- **Đa ngôn ngữ:** chọn trong 40 ngôn ngữ được hỗ trợ.
+- **Gói Premium:** loại bỏ quảng cáo và hỗ trợ ưu tiên qua in‑app purchase.
+- **Đăng nhập (bản trước):** màn hình đăng nhập Google ở phiên bản tích hợp Firebase; bản hiện tại chạy hoàn toàn cục bộ nên không còn bước này.
 
 ## Hướng dẫn cài đặt
 
