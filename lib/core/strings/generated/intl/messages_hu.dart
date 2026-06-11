@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/hó"),
     "language": MessageLookupByLibrary.simpleMessage("Nyelv"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Jelentkezzen be a fantasztikus funkciók eléréséhez.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Üdvözöljük!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Bejelentkezés Google-fiókkal",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Kijelentkezés"),
     "membership": MessageLookupByLibrary.simpleMessage("Tagság"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Havi Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Előfizetésem"),

@@ -1,8 +1,4 @@
 {
-  "logout": "Odhlásiť sa",
-  "login_title": "Vitajte!",
-  "login_content": "Prihláste sa a vyskúšajte úžasné funkcie.",
-  "login_with_google": "Prihlásiť sa pomocou Google",
   "view_docx": "Zobraziť DOCX",
   "error_code93": "Neplatné údaje! Zadajte iba čísla (0-9) a špeciálne znaky: . - medzera",
   "error_code128": "Neplatné údaje! Zadajte iba písmená (A-Z, a-z), čísla (0-9) a špeciálne znaky: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

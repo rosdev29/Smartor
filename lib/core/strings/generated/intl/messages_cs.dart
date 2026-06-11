@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/měsíc"),
     "language": MessageLookupByLibrary.simpleMessage("Jazyk"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Přihlaste se a objevte úžasné funkce.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Vítejte!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Přihlásit se pomocí Google",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Odhlásit se"),
     "membership": MessageLookupByLibrary.simpleMessage("Členství"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Měsíční Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Moje předplatné"),

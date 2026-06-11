@@ -1,8 +1,4 @@
 {
-  "logout": "Çıkış Yap",
-  "login_title": "Hoş Geldiniz!",
-  "login_content": "Muhteşem özellikleri deneyimlemek için giriş yapın.",
-  "login_with_google": "Google ile Giriş Yap",
   "view_docx": "DOCX'i Görüntüle",
   "error_code93": "Geçersiz veri! Lütfen yalnızca sayı (0-9) ve şu özel karakterleri girin: . - Boşluk",
   "error_code128": "Geçersiz veri! Lütfen yalnızca harf (A-Z, a-z), sayı (0-9) ve şu özel karakterleri girin: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

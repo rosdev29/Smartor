@@ -196,12 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/месец"),
     "language": MessageLookupByLibrary.simpleMessage("Език"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Влезте, за да се възползвате от невероятни функции.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Добре дошли!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage("Вход с Google"),
-    "logout": MessageLookupByLibrary.simpleMessage("Изход"),
     "membership": MessageLookupByLibrary.simpleMessage("Членство"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Месечен Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Моят абонамент"),

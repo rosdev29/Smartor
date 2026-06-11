@@ -1,8 +1,4 @@
 {
-  "logout": "Log ud",
-  "login_title": "Velkommen!",
-  "login_content": "Log ind for at opleve fantastiske funktioner.",
-  "login_with_google": "Log ind med Google",
   "view_docx": "Vis DOCX",
   "error_code93": "Ugyldige data! Indtast kun tal (0-9) og specialtegn: . - mellemrum",
   "error_code128": "Ugyldige data! Indtast kun bogstaver (A-Z, a-z), tal (0-9) og specialtegn: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

@@ -23,6 +23,7 @@ dependencies:
   expressions: ^0.2.5+2
   get_it: ^8.0.3
   intl: ^0.20.2
+  iap_quick: ^0.0.11
   isar: *isar_version
   isar_flutter_libs: *isar_version
   path_provider: ^2.1.5
@@ -41,7 +42,7 @@ dependencies:
   camera: ^0.10.6
   image_picker: ^1.1.2
   integral_isolates: ^0.5.1
-  google_vision: ^2.0.0+5
+  google_mlkit_text_recognition: ^0.13.1
   image: ^4.5.3
   toggle_switch: ^2.3.0
   translator: ^1.0.3+1
@@ -83,6 +84,7 @@ flutter:
     - assets/images/
     - assets/flags/
     - assets/themes/
+
 flutter_intl:
   enabled: true
   arb_dir: lib/core/strings/l10n

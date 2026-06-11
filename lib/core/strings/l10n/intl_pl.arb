@@ -1,8 +1,4 @@
 {
-  "logout": "Wyloguj się",
-  "login_title": "Witaj!",
-  "login_content": "Zaloguj się, aby korzystać z niesamowitych funkcji.",
-  "login_with_google": "Zaloguj się przez Google",
   "view_docx": "Wyświetl DOCX",
   "error_code93": "Nieprawidłowe dane! Wprowadź tylko cyfry (0-9) i znaki specjalne: . - Spacja",
   "error_code128": "Nieprawidłowe dane! Wprowadź tylko litery (A-Z, a-z), cyfry (0-9) i znaki specjalne: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

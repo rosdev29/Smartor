@@ -194,14 +194,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/মাস"),
     "language": MessageLookupByLibrary.simpleMessage("ভাষা"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "আমাদের অসাধারণ সুবিধাগুলি উপভোগ করতে লগ ইন করুন।",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("স্বাগত!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "গুগল দিয়ে লগ ইন করুন",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("লগআউট"),
     "membership": MessageLookupByLibrary.simpleMessage("সদস্যপদ"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("মাসিক প্রো"),
     "my_subscription": MessageLookupByLibrary.simpleMessage(

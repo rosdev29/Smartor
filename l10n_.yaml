@@ -1,6 +1,6 @@
 arb-dir: lib/core/strings/l10n
 template-arb-file: intl_en.arb
 output-localization-file: app_localizations.dart
-arb-translate-api-key: AIzaSyAEJpxDSyHKnjy0jx5V56ofU1J6oHM-YLg
+arb-translate-api-key: api_key
 arb-translate-model: gemini-1.5-pro
 arb-translate-context: "Please translate the language correctly in its original form and the output language is 100% native"

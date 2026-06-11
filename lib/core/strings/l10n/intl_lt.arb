@@ -1,8 +1,4 @@
 {
-  "logout": "Atsijungti",
-  "login_title": "Sveiki!",
-  "login_content": "Prisijunkite ir išbandykite nuostabias funkcijas.",
-  "login_with_google": "Prisijungti naudojant „Google“",
   "view_docx": "Peržiūrėti DOCX",
   "error_code93": "Netinkami duomenys! Įveskite tik skaičius (0–9) ir specialiuosius simbolius: . - Tarpas",
   "error_code128": "Netinkami duomenys! Įveskite tik raides (A–Z, a–z), skaičius (0–9) ir specialiuosius simbolius: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

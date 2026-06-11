@@ -37,7 +37,7 @@ class ScannerBloc extends Bloc<ScannerEvent, ScannerState> {
       emit(ImageState(path: xFile.path));
       final bytes = await xFile.readAsBytes();
       final recognizedText =
-          await _documentTextDetectionUseCase.call(byteBuffer: bytes.buffer);
+          await _documentTextDetectionUseCase.call(bytes: bytes);
       if (recognizedText == null) {
         emit(LoadingState(isLoading: false));
         return;
@@ -54,35 +54,17 @@ class ScannerBloc extends Bloc<ScannerEvent, ScannerState> {
       _listRect = [];
       _listText = [];
       _listRectSelected.clear();
-      for (final page in recognizedText.pages) {
-        if (page.blocks == null) continue;
-        for (final block in page.blocks!) {
-          if (block.paragraphs == null) continue;
-          for (final paragraph in block.paragraphs!) {
-            if (paragraph.words == null) continue;
-            for (final word in paragraph.words!) {
-              if (word.boundingBox == null) continue;
-              final text =
-                  word.symbols?.map((e) => e.text).join('').extractNumbers ??
-                      '';
-              if (text.isEmpty) continue;
-              final vertices = word.boundingBox!.vertices;
-              double left =
-                  vertices.map((v) => v.x).reduce(math.min).toDouble() * scale -
-                      paddingX;
-              double top =
-                  vertices.map((v) => v.y).reduce(math.min).toDouble() * scale;
-              double right =
-                  vertices.map((v) => v.x).reduce(math.max).toDouble() * scale -
-                      paddingX;
-              double bottom =
-                  vertices.map((v) => v.y).reduce(math.max).toDouble() * scale;
-              var rect = Rect.fromLTRB(left, top, right, bottom);
-              _listText.add(text);
-              _listRect.add(rect);
-            }
-          }
-        }
+      for (final word in recognizedText.words) {
+        final text = word.text.extractNumbers;
+        if (text.isEmpty) continue;
+        final box = word.boundingBox;
+        final left = box.left * scale - paddingX;
+        final top = box.top * scale;
+        final right = box.right * scale - paddingX;
+        final bottom = box.bottom * scale;
+        final rect = Rect.fromLTRB(left, top, right, bottom);
+        _listText.add(text);
+        _listRect.add(rect);
       }
       emit(LoadingState(isLoading: false));
       if (_listRect.isEmpty) return;

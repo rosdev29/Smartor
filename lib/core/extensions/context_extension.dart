@@ -7,11 +7,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../logic/cubits/premium/premium_cubit.dart';
+
 enum DialogCustom {
   deleteAllHistory,
 }
 
 extension ContextExtension on BuildContext {
+  bool get isShowAd => read<PremiumCubit>().state.isShowAd;
+
   String get localeString => read<LanguageCubit>().state;
 
   bool get isDotDecimalLocale =>
@@ -26,14 +30,6 @@ extension ContextExtension on BuildContext {
   double get height => MediaQuery.of(this).size.height;
 
   bool get isTablet => width >= 600 && width / height <= 0.75;
-
-  void get showLoading => showDialog(
-      context: this,
-      barrierDismissible: false,
-      builder: (_) => Container(
-            color: Colors.black38,
-            child: Center(child: CircularProgressIndicator.adaptive()),
-          ));
 
   Future<T?> showDialogCustom<T>({
     required DialogCustom type,

@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/bulan"),
     "language": MessageLookupByLibrary.simpleMessage("Bahasa"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Masuk untuk menikmati berbagai fitur luar biasa.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Selamat datang!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Masuk dengan Google",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Keluar"),
     "membership": MessageLookupByLibrary.simpleMessage("Keanggotaan"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Pro Bulanan"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Langganan Saya"),

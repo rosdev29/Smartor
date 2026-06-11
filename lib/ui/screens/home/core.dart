@@ -9,6 +9,7 @@ import 'package:calc_pro/logic/blocs/home/home_bloc.dart';
 import 'package:calc_pro/logic/cubits/language/language_cubit.dart';
 import 'package:calc_pro/logic/cubits/theme/theme_cubit.dart';
 import 'package:calc_pro/ui/widgets/anim_button.dart';
+import 'package:calc_pro/ui/widgets/premium_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

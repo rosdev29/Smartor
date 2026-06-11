@@ -24,8 +24,8 @@ class HistoryRepositoryImpl implements HistoryRepository {
   Future<void> deleteAll() => _isar.writeTxn(() => _isar.historys.clear());
 
   @override
-  Future<List<History>> getList({required int offset}) => _isar.txn(() =>
-      _isar.historys.where(sort: Sort.desc).anyId().offset(offset).findAll());
+  Future<List<History>> getList({required int offset}) =>
+      _isar.txn(() => _isar.historys.where(sort: Sort.desc).anyId().offset(offset).findAll());
 
   @override
   Future<int> insert({required History history}) =>

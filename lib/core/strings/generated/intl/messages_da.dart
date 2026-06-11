@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/måned"),
     "language": MessageLookupByLibrary.simpleMessage("Sprog"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Log ind for at opleve fantastiske funktioner.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Velkommen!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Log ind med Google",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Log ud"),
     "membership": MessageLookupByLibrary.simpleMessage("Medlemskab"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Månedlig Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Mit abonnement"),

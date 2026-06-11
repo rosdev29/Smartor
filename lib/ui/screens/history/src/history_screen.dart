@@ -24,6 +24,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final isShowAd = context.watch<PremiumCubit>().state.isShowAd;
     return SafeArea(
         top: false,
         child: Scaffold(
@@ -44,6 +45,8 @@ class _HistoryScreenState extends State<HistoryScreen> {
                   ],
                 ),
               ),
+              if (isShowAd)
+                const FlutterAdsBanner(androidId: Constants.bannerAndroidId),
             ],
           ),
         ));

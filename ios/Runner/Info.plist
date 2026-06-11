@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-<key>NSPhotoLibraryUsageDescription </key>
-<string>your usage description here</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Cho phép truy cập thư viện ảnh để chọn ảnh nhận dạng và lưu mã QR/Barcode.</string>
 <key>NSCameraUsageDescription</key>
-<string>your usage description here</string>
+<string>Cho phép truy cập camera để quét mã QR và chụp ảnh nhận dạng văn bản.</string>
 <key>NSMicrophoneUsageDescription</key>
-<string>your usage description here</string>
+<string>Cho phép truy cập micro khi sử dụng camera.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string></string>
+	<string>Smartor</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

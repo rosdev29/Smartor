@@ -196,16 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/buwan"),
     "language": MessageLookupByLibrary.simpleMessage("Wika"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Mag-log in upang maranasan ang mga kamangha-manghang tampok.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage(
-      "Maligayang pagdating!",
-    ),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Mag-log in gamit ang Google",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Mag-log out"),
     "membership": MessageLookupByLibrary.simpleMessage("Pagiging Miyembro"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Buwanang Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage(

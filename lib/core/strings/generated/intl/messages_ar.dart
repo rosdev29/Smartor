@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/شهريًا"),
     "language": MessageLookupByLibrary.simpleMessage("اللغة"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "سجّل الدخول لتجربة ميزات رائعة.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("أهلًا بك!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "تسجيل الدخول باستخدام جوجل",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
     "membership": MessageLookupByLibrary.simpleMessage("الاشتراك"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("اشتراك Pro شهري"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("اشتراكي"),

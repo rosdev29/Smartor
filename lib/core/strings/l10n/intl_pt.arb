@@ -1,8 +1,4 @@
 {
-  "logout": "Sair",
-  "login_title": "Bem-vindo(a)!",
-  "login_content": "Faça login para experimentar recursos incríveis.",
-  "login_with_google": "Entrar com o Google",
   "view_docx": "Ver DOCX",
   "error_code93": "Dados inválidos! Insira apenas números (0-9) e caracteres especiais: . - Espaço",
   "error_code128": "Dados inválidos! Insira apenas letras (A-Z, a-z), números (0-9) e caracteres especiais: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

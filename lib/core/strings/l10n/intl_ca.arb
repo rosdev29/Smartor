@@ -1,8 +1,4 @@
 {
-  "logout": "Tanca la sessió",
-  "login_title": "Benvingut!",
-  "login_content": "Inicia la sessió per gaudir de funcions increïbles.",
-  "login_with_google": "Inicia la sessió amb Google",
   "view_docx": "Visualitza DOCX",
   "error_code93": "Dades no vàlides! Introduïu només números (0-9) i caràcters especials: . - Espai",
   "error_code128": "Dades no vàlides! Introduïu només lletres (A-Z, a-z), números (0-9) i caràcters especials: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

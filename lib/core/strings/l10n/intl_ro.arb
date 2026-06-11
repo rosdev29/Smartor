@@ -1,8 +1,4 @@
 {
-  "logout": "Deconectare",
-  "login_title": "Bun venit!",
-  "login_content": "Conectați-vă pentru a experimenta funcții uimitoare.",
-  "login_with_google": "Conectați-vă cu Google",
   "view_docx": "Vizualizare DOCX",
   "error_code93": "Date invalide! Introduceți doar cifre (0-9) și caractere speciale: . - Spațiu",
   "error_code128": "Date invalide! Introduceți doar litere (A-Z, a-z), cifre (0-9) și caractere speciale: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

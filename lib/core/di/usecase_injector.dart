@@ -3,6 +3,12 @@ part of 'injector.dart';
 void _useCaseInjector() {
   getIt.registerLazySingleton<CalculateUseCase>(() => CalculateUseCase());
 
+  getIt.registerLazySingleton<CheckExpVipUseCase>(
+      () => CheckExpVipUseCase(subscriptionRepository: getIt()));
+
+  getIt.registerLazySingleton<UpdateExpVipUseCase>(
+      () => UpdateExpVipUseCase(subscriptionRepository: getIt()));
+
   getIt.registerLazySingleton<InsertHistoryUseCase>(
       () => InsertHistoryUseCase(historyRepository: getIt()));
 
@@ -19,7 +25,7 @@ void _useCaseInjector() {
       () => CheckAppUpdateUseCase());
 
   getIt.registerLazySingleton<DocumentTextDetectionUseCase>(
-      () => DocumentTextDetectionUseCase(googleVision: getIt()));
+      () => DocumentTextDetectionUseCase(textRecognizer: getIt()));
 
   getIt.registerLazySingleton<ConvertListOffsetsToBytesUseCase>(
       () => ConvertListOffsetsToBytesUseCase());
@@ -29,6 +35,8 @@ void _useCaseInjector() {
 
   getIt.registerLazySingleton<SetLanguageTranslateUseCase>(
       () => SetLanguageTranslateUseCase());
+
+  getIt.registerLazySingleton<CheckShowAdUseCase>(() => CheckShowAdUseCase());
 
   getIt.registerLazySingleton<GetVersionQrCodeUseCase>(
       () => GetVersionQrCodeUseCase());

@@ -53,6 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             actions: [
               _ToolsButton(bloc: _bloc),
+              PremiumWidget(),
               SizedBox(width: 8.w)
             ],
           ),

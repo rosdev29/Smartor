@@ -194,14 +194,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/माह"),
     "language": MessageLookupByLibrary.simpleMessage("भाषा"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "अद्भुत सुविधाओं का अनुभव करने के लिए लॉग इन करें।",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("स्वागत है!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Google से लॉगिन करें",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("लॉग आउट करें"),
     "membership": MessageLookupByLibrary.simpleMessage("सदस्यता"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("मासिक प्रो"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("मेरी सदस्यता"),

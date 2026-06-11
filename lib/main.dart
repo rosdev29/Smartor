@@ -2,6 +2,7 @@ import 'package:calc_pro/core/di/injector.dart';
 import 'package:calc_pro/core/strings/generated/l10n.dart';
 import 'package:calc_pro/core/theme/theme.dart';
 import 'package:calc_pro/logic/cubits/language/language_cubit.dart';
+import 'package:calc_pro/logic/cubits/premium/premium_cubit.dart';
 import 'package:calc_pro/logic/cubits/theme/theme_cubit.dart';
 import 'package:calc_pro/ui/routers/app_router.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       child: MultiBlocProvider(
         providers: [
+          BlocProvider(create: (_) => getIt<PremiumCubit>()..checkVip(false)),
           BlocProvider(create: (_) => getIt<LanguageCubit>()),
           BlocProvider(create: (_) => getIt<ThemeCubit>()..getTheme()),
         ],

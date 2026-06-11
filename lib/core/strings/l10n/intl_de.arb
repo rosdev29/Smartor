@@ -1,8 +1,4 @@
 {
-  "logout": "Abmelden",
-  "login_title": "Willkommen!",
-  "login_content": "Melden Sie sich an, um großartige Funktionen zu erleben.",
-  "login_with_google": "Mit Google anmelden",
   "view_docx": "DOCX anzeigen",
   "error_code93": "Ungültige Daten! Bitte geben Sie nur Zahlen (0-9) und Sonderzeichen ein: . - Leerzeichen",
   "error_code128": "Ungültige Daten! Bitte geben Sie nur Buchstaben (A-Z, a-z), Zahlen (0-9) und Sonderzeichen ein: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

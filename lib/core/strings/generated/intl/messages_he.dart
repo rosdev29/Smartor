@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/חודש"),
     "language": MessageLookupByLibrary.simpleMessage("שפה"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "התחברו כדי ליהנות מחוויה מדהימה.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("ברוכים הבאים!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "התחברות עם גוגל",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("התנתק"),
     "membership": MessageLookupByLibrary.simpleMessage("מנוי"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Pro חודשי"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("המנוי שלי"),

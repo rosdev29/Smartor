@@ -198,14 +198,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/mes"),
     "language": MessageLookupByLibrary.simpleMessage("Idioma"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Inicia la sessió per gaudir de funcions increïbles.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Benvingut!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Inicia la sessió amb Google",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Tanca la sessió"),
     "membership": MessageLookupByLibrary.simpleMessage("Subscripció"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Pro mensual"),
     "my_subscription": MessageLookupByLibrary.simpleMessage(

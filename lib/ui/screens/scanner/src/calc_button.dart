@@ -16,13 +16,13 @@ class _CalcButton extends StatelessWidget {
               onTapDown: (_) => bloc.add(ShowCalculatorEvent()),
               borderRadius: BorderRadius.circular(6.r),
               child: Container(
-                width: 640.w,
-                height: 100.h,
+                width: 100.w,
+                height: 100.w,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(6.r),
                     image: DecorationImage(
                       image: AssetImage('assets/images/logo.png'),
-                      fit: BoxFit.contain,
+                      fit: BoxFit.cover,
                     )),
               ),
             );

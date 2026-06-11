@@ -1,8 +1,4 @@
 {
-  "logout": "Esci",
-  "login_title": "Benvenuto/a!",
-  "login_content": "Accedi per scoprire funzionalità fantastiche.",
-  "login_with_google": "Accedi con Google",
   "view_docx": "Visualizza DOCX",
   "error_code93": "Dati non validi! Inserisci solo numeri (0-9) e caratteri speciali: . - Spazio",
   "error_code128": "Dati non validi! Inserisci solo lettere (A-Z, a-z), numeri (0-9) e caratteri speciali: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

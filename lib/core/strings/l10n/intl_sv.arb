@@ -1,8 +1,4 @@
 {
-  "logout": "Logga ut",
-  "login_title": "Välkommen!",
-  "login_content": "Logga in för att uppleva fantastiska funktioner.",
-  "login_with_google": "Logga in med Google",
   "view_docx": "Visa DOCX",
   "error_code93": "Ogiltiga data! Ange endast siffror (0–9) och specialtecken: . - Mellanslag",
   "error_code128": "Ogiltiga data! Ange endast bokstäver (A–Ö, a–ö), siffror (0–9) och specialtecken: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

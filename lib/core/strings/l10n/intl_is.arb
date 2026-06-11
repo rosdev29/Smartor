@@ -1,8 +1,4 @@
 {
-  "logout": "Útskráning",
-  "login_title": "Velkomin(n)!",
-  "login_content": "Skráðu þig inn til að upplifa frábæra eiginleika.",
-  "login_with_google": "Innskráning með Google",
   "view_docx": "Skoða DOCX",
   "error_code93": "Ógild gögn! Sláðu aðeins inn tölustafi (0-9) og sérstafi: . - Bil",
   "error_code128": "Ógild gögn! Sláðu aðeins inn bókstafi (A-Z, a-z), tölustafi (0-9) og sérstafi: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

@@ -1,8 +1,4 @@
 {
-  "logout": "Saioa itxi",
-  "login_title": "Ongi etorri!",
-  "login_content": "Sartu funtzio harrigarriak bizitzeko.",
-  "login_with_google": "Sartu Google-rekin",
   "view_docx": "DOCX ikusi",
   "error_code93": "Datu baliogabea! Idatzi zenbakiak (0-9) eta karaktere bereziak soilik: . - Zuriunea",
   "error_code128": "Datu baliogabea! Idatzi letrak (A-Z, a-z), zenbakiak (0-9) eta karaktere bereziak soilik: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

@@ -20,7 +20,7 @@ class _QrView extends StatelessWidget {
                   child: QrImageView(
                     data: state.text,
                     version: state.version,
-                    size: context.width * 0.5,
+                    size: context.width * 0.6,
                     backgroundColor: Colors.white,
                     eyeStyle: QrEyeStyle(
                       color: Colors.black,
@@ -31,7 +31,7 @@ class _QrView extends StatelessWidget {
                         dataModuleShape: QrDataModuleShape.square),
                   ),
                 ),
-                SizedBox(height: 5.h),
+                SizedBox(height: 32.h),
                 GradientElevatedButton(
                   onPressed: () => bloc.add(GenerateQrEvent(qrKey: qrKey)),
                   style: GradientElevatedButton.styleFrom(

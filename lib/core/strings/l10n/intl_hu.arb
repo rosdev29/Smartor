@@ -1,8 +1,4 @@
 {
-  "logout": "Kijelentkezés",
-  "login_title": "Üdvözöljük!",
-  "login_content": "Jelentkezzen be a fantasztikus funkciók eléréséhez.",
-  "login_with_google": "Bejelentkezés Google-fiókkal",
   "view_docx": "DOCX megtekintése",
   "error_code93": "Érvénytelen adat! Kérjük, csak számokat (0-9) és speciális karaktereket adjon meg: . - Szóköz",
   "error_code128": "Érvénytelen adat! Kérjük, csak betűket (A-Z, a-z), számokat (0-9) és speciális karaktereket adjon meg: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

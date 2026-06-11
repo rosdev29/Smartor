@@ -1,8 +1,4 @@
 {
-  "logout": "Izrakstīties",
-  "login_title": "Laipni lūdzam!",
-  "login_content": "Piesakieties, lai izmantotu lieliskas funkcijas.",
-  "login_with_google": "Pieslēgties ar Google",
   "view_docx": "Skatīt DOCX",
   "error_code93": "Nederīgi dati! Lūdzu, ievadiet tikai ciparus (0–9) un speciālās rakstzīmes: . - Atstarpe",
   "error_code128": "Nederīgi dati! Lūdzu, ievadiet tikai burtus (A–Z, a–z), ciparus (0–9) un speciālās rakstzīmes: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

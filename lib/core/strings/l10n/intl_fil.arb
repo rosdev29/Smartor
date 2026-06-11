@@ -1,8 +1,4 @@
 {
-  "logout": "Mag-log out",
-  "login_title": "Maligayang pagdating!",
-  "login_content": "Mag-log in upang maranasan ang mga kamangha-manghang tampok.",
-  "login_with_google": "Mag-log in gamit ang Google",
   "view_docx": "Tingnan ang DOCX",
   "error_code93": "Hindi wastong data! Mangyaring maglagay lamang ng mga numero (0-9) at mga espesyal na character: . - Space",
   "error_code128": "Hindi wastong data! Mangyaring maglagay lamang ng mga letra (A-Z, a-z), mga numero (0-9), at mga espesyal na character: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

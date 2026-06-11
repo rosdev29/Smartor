@@ -35,14 +35,24 @@ extension StringExtension on String {
       var num = int.parse(match.group(0)!);
 
       final localeString =
-      AppRouter.context.isDotDecimalLocale ? 'en_US' : 'vi_VN';
+          AppRouter.context.isDotDecimalLocale ? 'en_US' : 'vi_VN';
       var formattedNumber =
-      NumberFormat.decimalPattern(localeString).format(num);
+          NumberFormat.decimalPattern(localeString).format(num);
       return formattedNumber;
     });
     if (value.endsWith('.0') || value.endsWith(',0')) {
       value = value.substring(0, value.length - 2);
     }
     return value;
+  }
+
+  String get toProductName {
+    var name = S.current.weekly_pro;
+    if (this == Constants.kMonthlyId) {
+      name = S.current.monthly_pro;
+    } else if (this == Constants.kYearlyId) {
+      name = S.current.yearly_pro;
+    }
+    return name;
   }
 }

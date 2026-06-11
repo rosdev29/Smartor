@@ -14,7 +14,7 @@ class ViewDocxBloc extends Bloc<ViewDocxEvent, ViewDocxState> {
       ChoosePdfFileEvent event, Emitter<ViewDocxState> emit) async {
     final result = await FilePicker.platform.pickFiles(
       type: FileType.custom,
-      allowedExtensions: ['docx,doc'],
+      allowedExtensions: ['docx', 'doc'],
     );
     if (result == null || result.files.isEmpty) return;
     final path = result.files.first.path;

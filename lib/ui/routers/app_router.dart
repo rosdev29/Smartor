@@ -8,6 +8,7 @@ import 'package:calc_pro/ui/screens/language/core.dart';
 import 'package:calc_pro/ui/screens/qr_code/core.dart';
 import 'package:calc_pro/ui/screens/qr_gen/core.dart';
 import 'package:calc_pro/ui/screens/splash/core.dart';
+import 'package:calc_pro/ui/screens/subscription/core.dart';
 import 'package:calc_pro/ui/screens/scanner/core.dart';
 import 'package:calc_pro/ui/screens/theme/core.dart';
 import 'package:calc_pro/ui/screens/translate/core.dart';
@@ -37,6 +38,7 @@ class AppRouter {
         splashScreen: (_) => const SplashScreen(),
         homeScreen: (_) => const HomeScreen(),
         historyScreen: (_) => const HistoryScreen(),
+        subscriptionScreen: (_) => const SubscriptionScreen(),
         languageScreen: (_) => const LanguageScreen(),
         themeScreen: (_) => const ThemeScreen(),
         cameraScreen: (_) => const CameraScreen(),

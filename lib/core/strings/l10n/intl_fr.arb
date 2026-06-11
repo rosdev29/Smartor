@@ -1,8 +1,4 @@
 {
-  "logout": "Déconnexion",
-  "login_title": "Bienvenue !",
-  "login_content": "Connectez-vous pour découvrir des fonctionnalités exceptionnelles.",
-  "login_with_google": "Se connecter avec Google",
   "view_docx": "Afficher DOCX",
   "error_code93": "Données invalides ! Veuillez saisir uniquement des chiffres (0-9) et des caractères spéciaux : . - Espace",
   "error_code128": "Données invalides ! Veuillez saisir uniquement des lettres (A-Z, a-z), des chiffres (0-9) et des caractères spéciaux : ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

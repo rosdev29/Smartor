@@ -1,8 +1,4 @@
 {
-  "logout": "退出登录",
-  "login_title": "欢迎！",
-  "login_content": "登录以体验精彩功能。",
-  "login_with_google": "使用 Google 登录",
   "view_docx": "查看 DOCX",
   "error_code93": "数据无效！请输入数字 (0-9) 和特殊字符：. - 空格",
   "error_code128": "数据无效！请输入字母 (A-Z, a-z)、数字 (0-9) 和特殊字符：! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

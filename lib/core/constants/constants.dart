@@ -1,5 +1,10 @@
 class Constants {
+  static const googlePlayId = 'https://play.google.com/store/apps/details?id=com.mxgk.calc_pro';
 
+  ///Id của các gói đăng ký in-app-purchase
+  static const kWeeklyId = 'calc_weekly_plan';
+  static const kMonthlyId = 'calc_monthly_plan';
+  static const kYearlyId = 'calc_yearly_plan';
 
   /// Khóa của sharedprederences
   static const languageCode = 'languageCode';
@@ -8,8 +13,8 @@ class Constants {
   static const versionQrCode = 'versionQrCode';
   static const barcodeType = 'barcodeType';
 
-
-  static String googlePlayId = 'appcuatrieuduydepgai';
+  /// Id ads
+  static const bannerAndroidId = 'ca-app-pub-3940256099942544/6300978111';
 
   ///Danh sách các quốc gia sử dụng dấu chấm động
   static List<String> get dotDecimalLocales => [

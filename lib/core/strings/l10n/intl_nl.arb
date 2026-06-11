@@ -1,8 +1,4 @@
 {
-  "logout": "Afmelden",
-  "login_title": "Welkom!",
-  "login_content": "Log in om geweldige functies te ervaren.",
-  "login_with_google": "Inloggen met Google",
   "view_docx": "DOCX bekijken",
   "error_code93": "Ongeldige gegevens! Voer alleen cijfers (0-9) en speciale tekens in: . - spatie",
   "error_code128": "Ongeldige gegevens! Voer alleen letters (A-Z, a-z), cijfers (0-9) en speciale tekens in: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

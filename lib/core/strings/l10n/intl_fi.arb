@@ -1,8 +1,4 @@
 {
-  "logout": "Kirjaudu ulos",
-  "login_title": "Tervetuloa!",
-  "login_content": "Kirjaudu sisään kokeaksesi upeita ominaisuuksia.",
-  "login_with_google": "Kirjaudu Googlella",
   "view_docx": "Näytä DOCX",
   "error_code93": "Virheellinen data! Syötä vain numeroita (0–9) ja erikoismerkkejä: . - Välilyönti",
   "error_code128": "Virheellinen data! Syötä vain kirjaimia (A–Z, a–z), numeroita (0–9) ja erikoismerkkejä: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

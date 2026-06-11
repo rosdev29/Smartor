@@ -1,8 +1,4 @@
 {
-  "logout": "Đăng xuất",
-  "login_title": "Chào mừng!",
-  "login_content": "Đăng nhập để trải nghiệm các tính năng tuyệt vời.",
-  "login_with_google": "Đăng nhập bằng Google",
   "view_docx": "Xem DOCX",
   "error_code93": "Dữ liệu không hợp lệ! Vui lòng chỉ nhập số (0-9) và các ký tự đặc biệt: . - Dấu cách",
   "error_code128": "Dữ liệu không hợp lệ! Vui lòng chỉ nhập chữ cái (A-Z, a-z), số (0-9) và các ký tự đặc biệt: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

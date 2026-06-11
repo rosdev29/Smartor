@@ -1,4 +1,4 @@
-# Smartor — Ứng dụng máy tính thông minh đa năng
+# Calc Pro — Ứng dụng máy tính thông minh đa năng
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.6%2B-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-SDK%203.6.2-0175C2?logo=dart&logoColor=white)
@@ -152,6 +152,7 @@ flutter build apk --release
 
 - Lưu trữ ở mức cục bộ; chưa có đồng bộ dữ liệu giữa nhiều thiết bị từ mã nguồn hiện tại.
 - Chất lượng OCR và dịch thuật phụ thuộc vào chất lượng ảnh đầu vào và dịch vụ bên thứ ba.
+- Một số tính năng nâng cao mô tả trong tài liệu (ví dụ chú thích tài liệu, đồng bộ đám mây) chưa xác định được trong mã nguồn hiện tại.
 
 ## Hướng phát triển trong tương lai
 
@@ -160,8 +161,8 @@ flutter build apk --release
 - Cải thiện độ chính xác OCR và hỗ trợ dịch ngoại tuyến.
 - Hoàn thiện trải nghiệm quét mã QR và phát hành lên Google Play Store.
 
-# Smartor
+## Tác giả
 
-Developed by Lê Triệu Duy.
-
-Licensed under GPL-3.0.
+| Họ và tên | Vai trò |
+|---|---|
+| Lê Triệu Duy | Developer |

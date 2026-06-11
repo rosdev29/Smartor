@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/kk"),
     "language": MessageLookupByLibrary.simpleMessage("Kieli"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Kirjaudu sisään kokeaksesi upeita ominaisuuksia.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Tervetuloa!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Kirjaudu Googlella",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Kirjaudu ulos"),
     "membership": MessageLookupByLibrary.simpleMessage("Jäsenyys"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Kuukausi Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Tilaukseni"),

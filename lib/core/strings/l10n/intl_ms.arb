@@ -1,8 +1,4 @@
 {
-  "logout": "Log keluar",
-  "login_title": "Selamat datang!",
-  "login_content": "Log masuk untuk menikmati ciri-ciri hebat.",
-  "login_with_google": "Log masuk dengan Google",
   "view_docx": "Lihat DOCX",
   "error_code93": "Data tidak sah! Sila masukkan hanya nombor (0-9) dan aksara khas: . - Ruang",
   "error_code128": "Data tidak sah! Sila masukkan hanya huruf (A-Z, a-z), nombor (0-9), dan aksara khas: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

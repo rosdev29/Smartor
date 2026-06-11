@@ -6,6 +6,7 @@ import 'package:calc_pro/core/extensions/context_extension.dart';
 import 'package:calc_pro/core/strings/generated/l10n.dart';
 import 'package:calc_pro/data/models/history.dart';
 import 'package:calc_pro/logic/blocs/history/history_bloc.dart';
+import 'package:calc_pro/logic/cubits/premium/premium_cubit.dart';
 import 'package:calc_pro/ui/widgets/notification_custom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ads_plugin/flutter_ads_plugin.dart';

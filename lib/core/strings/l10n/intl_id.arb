@@ -1,8 +1,4 @@
 {
-  "logout": "Keluar",
-  "login_title": "Selamat datang!",
-  "login_content": "Masuk untuk menikmati berbagai fitur luar biasa.",
-  "login_with_google": "Masuk dengan Google",
   "view_docx": "Lihat DOCX",
   "error_code93": "Data tidak valid! Harap masukkan hanya angka (0-9) dan karakter khusus: . - Spasi",
   "error_code128": "Data tidak valid! Harap masukkan hanya huruf (A-Z, a-z), angka (0-9), dan karakter khusus: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

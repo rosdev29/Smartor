@@ -551,7 +551,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   void _openGmail(OpenGmailEvent event, Emitter<HomeState> emit) async {
     final Uri emailLaunchUri = Uri(
       scheme: 'mailto',
-      path: 'duylt0022@ut.edu.vn',
+      path: 'minhto28.dev@gmail.com',
       query: _encodeQueryParameters(<String, String>{
         'subject': 'Reporting a Bug CalcPro App!',
       }),
@@ -602,8 +602,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       try {
         final byteBuffer = await _convertListOffsetsToFileUseCase.call(
             listOffsets: _listOffset);
-        final textRecognizer =
-            await _documentTextDetectionUseCase.call(byteBuffer: byteBuffer);
+        final textRecognizer = await _documentTextDetectionUseCase.call(
+            bytes: byteBuffer.asUint8List());
         _listOffset = [];
         add(EmitListOffsetsEvent());
         if (textRecognizer == null) return;

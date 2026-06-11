@@ -74,7 +74,7 @@ class _QrGenScreenState extends State<QrGenScreen> {
                       ])),
                     ),
                     _Version(bloc: _bloc),
-                    SizedBox(height: 38.h),
+                    SizedBox(height: 32.h),
                     _QrView(bloc: _bloc),
                   ],
                 ),

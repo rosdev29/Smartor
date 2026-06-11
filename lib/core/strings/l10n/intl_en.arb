@@ -1,8 +1,4 @@
 {
-  "logout": "Logout",
-  "login_title": "Welcome!",
-  "login_content": "Log in to experience amazing features.",
-  "login_with_google":"Login with Google",
   "view_docx": "View DOCX",
   "error_code93": "Invalid data! Please enter only numbers (0-9) and special characters: . - Space",
   "error_code128": "Invalid data! Please enter only letters (A-Z, a-z), numbers (0-9), and special characters: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

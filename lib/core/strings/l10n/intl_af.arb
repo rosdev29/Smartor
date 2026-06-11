@@ -1,8 +1,4 @@
 {
-  "logout": "Teken uit",
-  "login_title": "Welkom!",
-  "login_content": "Meld aan om wonderlike funksies te ervaar.",
-  "login_with_google": "Meld aan met Google",
   "view_docx": "Bekyk DOCX",
   "error_code93": "Ongeldige data! Voer slegs getalle (0-9) en spesiale karakters in: . - Spasie",
   "error_code128": "Ongeldige data! Voer slegs letters (A-Z, a-z), getalle (0-9) en spesiale karakters in: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ `{ | }~",

@@ -102,6 +102,7 @@ final class OnPanUpdateEvent extends HomeEvent {
   List<Object?> get props => [details];
 }
 
+
 final class OnPanEndEvent extends HomeEvent {
   final DragEndDetails details;
 

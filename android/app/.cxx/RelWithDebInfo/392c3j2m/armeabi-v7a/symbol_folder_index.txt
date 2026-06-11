@@ -1,1 +1,0 @@
-C:\Users\acer\AndroidStudioProjects\calc_pro-main\build\app\intermediates\cxx\RelWithDebInfo\392c3j2m\obj\armeabi-v7a

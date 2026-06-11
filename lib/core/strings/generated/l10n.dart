@@ -55,36 +55,6 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Logout`
-  String get logout {
-    return Intl.message('Logout', name: 'logout', desc: '', args: []);
-  }
-
-  /// `Welcome!`
-  String get login_title {
-    return Intl.message('Welcome!', name: 'login_title', desc: '', args: []);
-  }
-
-  /// `Log in to experience amazing features.`
-  String get login_content {
-    return Intl.message(
-      'Log in to experience amazing features.',
-      name: 'login_content',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Login with Google`
-  String get login_with_google {
-    return Intl.message(
-      'Login with Google',
-      name: 'login_with_google',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `View DOCX`
   String get view_docx {
     return Intl.message('View DOCX', name: 'view_docx', desc: '', args: []);

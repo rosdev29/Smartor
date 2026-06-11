@@ -196,14 +196,6 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "label_3_day_free_month": MessageLookupByLibrary.simpleMessage("/hilean"),
     "language": MessageLookupByLibrary.simpleMessage("Hizkuntza"),
-    "login_content": MessageLookupByLibrary.simpleMessage(
-      "Sartu funtzio harrigarriak bizitzeko.",
-    ),
-    "login_title": MessageLookupByLibrary.simpleMessage("Ongi etorri!"),
-    "login_with_google": MessageLookupByLibrary.simpleMessage(
-      "Sartu Google-rekin",
-    ),
-    "logout": MessageLookupByLibrary.simpleMessage("Saioa itxi"),
     "membership": MessageLookupByLibrary.simpleMessage("Kidetza"),
     "monthly_pro": MessageLookupByLibrary.simpleMessage("Hileko Pro"),
     "my_subscription": MessageLookupByLibrary.simpleMessage("Nire harpidetza"),
